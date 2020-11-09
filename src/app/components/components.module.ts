@@ -7,6 +7,7 @@ import { ComponentsRoutingModule } from './components-routing.module';
 import { MainComponent } from './main/main.component';
 import { FooterComponent } from './footer/footer.component';
 import { HeaderComponent } from './header/header.component';
+import { SharedModule } from './shared.module';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { HeaderComponent } from './header/header.component';
   imports: [
     CommonModule,
     ComponentsRoutingModule,
+    SharedModule
   ],
 
   entryComponents: [    
